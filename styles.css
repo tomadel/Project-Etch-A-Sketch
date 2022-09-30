@@ -1,0 +1,44 @@
+* {
+    background-color:coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:cornsilk;
+}
+
+#title{
+    margin-top: 50px;
+    font-size: larger;
+}
+
+#container{
+    display: inline-block;
+
+}
+
+#canvas {
+
+    width: 500px;
+    height: 500px;
+    display: grid;
+    border: 2px solid black;
+    margin: 30px;
+    
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    
+}
+
+button {
+    cursor: pointer;
+    font-size: large;
+    background-color:grey;
+    border-radius: 2em;
+}
+
+#applyButton{
+    margin-bottom: 30px;
+}

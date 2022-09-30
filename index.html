@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"  href="/styles.css" />
+        <link rel="stylesheet" href="/reset.css" />
+        <title>ETCH A SKETCH</title>
+    </head>
+    <header>
+        <h1 id="gameTitle">A Simple Sketch App</h1>
+    </header>
+    <body>
+      <div id="container"> 
+        <div id="canvas" ></div>
+        <div id="buttons">
+            <button onclick="changeColor('black')">Black</button>
+            <button onclick="changeColor('Gray')">Gray</button>
+            <button onclick="changeColor('random')">Random</button>
+            <button onclick="changeColor('white')">Clean</button>
+            <button onclick="resetCanvas()">Reset</button>
+        </div>
+     
+        <div>
+         <input type="text" placeholder="Grid Size" value="16" onchange="adjustSize(this.value)" >
+         <button>Apply</button>
+        </div>
+     </div>
+
+
+    </body>
+    <script src="/app.js"></script>
+</html>
